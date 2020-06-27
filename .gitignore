@@ -5,3 +5,5 @@
 /client/x86
 /server/x64
 /server/x86
+run_server
+run_client
