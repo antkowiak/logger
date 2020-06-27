@@ -39,14 +39,18 @@ public:
 	// pops all entries out of the queue, places them into a vector, and returns the vector of entries.
 	std::vector<logentry> pop()
 	{
-		std::lock_guard<std::mutex> guard(m_mutex);
 		std::vector<logentry> entries;
-		entries.reserve(m_queue.size());
 
-		while (!m_queue.empty())
 		{
-			entries.emplace_back(m_queue.front());
-			m_queue.pop();
+			std::lock_guard<std::mutex> guard(m_mutex);
+
+			entries.reserve(m_queue.size());
+
+			while (!m_queue.empty())
+			{
+				entries.emplace_back(m_queue.front());
+				m_queue.pop();
+			}
 		}
 
 		return entries;
