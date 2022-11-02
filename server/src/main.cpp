@@ -2,7 +2,7 @@
 //
 // main.cpp - Contains main function to run the logging server.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #define _CRT_SECURE_NO_DEPRECATE

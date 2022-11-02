@@ -2,7 +2,7 @@
 //
 // main.cpp - Sample usage of logger.h logger client.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #define _CRT_SECURE_NO_DEPRECATE

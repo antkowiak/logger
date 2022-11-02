@@ -3,7 +3,7 @@
 //
 // logsession.h - The connection of a logging session.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #define _CRT_SECURE_NO_DEPRECATE

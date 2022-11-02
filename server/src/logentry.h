@@ -3,7 +3,7 @@
 //
 // logentry.h - Log entry in the queue
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #include <string>

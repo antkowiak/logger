@@ -3,7 +3,7 @@
 //
 // logger.h - Singleton to buffer/queue up log entries for publishing to a log server.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #define _CRT_SECURE_NO_DEPRECATE

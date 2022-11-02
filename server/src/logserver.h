@@ -3,7 +3,7 @@
 //
 // logserver.h - Log server that accepts connections and creates sessions.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #define _CRT_SECURE_NO_DEPRECATE

@@ -3,7 +3,7 @@
 //
 // logqueue.h - Synchronized queue of log entries to send to the log server.
 //
-// Written by Ryan Antkowiak (antkowiak@gmail.com)
+// Written by Ryan Antkowiak 
 //
 
 #include <mutex>
